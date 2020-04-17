@@ -1,4 +1,4 @@
-# Foobar
+# Introduction
 
 Back-end program to handle request from Soren085's music app
 
@@ -10,7 +10,6 @@ Required node package manager and nodejs
 
 ```
 nodemon <file-name>.js
-
 ```
 
 ## Deployment
@@ -20,4 +19,4 @@ Config with Procfile
 
 ## License
 <!-- TODO insert website -->
-[The github website is here (not available yet)]()
+[The music github website is here (not available yet)]()
