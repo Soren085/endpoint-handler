@@ -1,8 +1,12 @@
 const expModule = require('express');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 
 // fire function
 const express = expModule();
+
+// CORS
+express.use(cors());
 
 // create application/json parser
 const jsonParser = bodyParser.json()
@@ -34,6 +38,7 @@ express.use('/assets', expModule.static('assets'));
 
 express.get('/cat', (req, res) => {
 	res.send('cat page');
+	res.sendStatus(200);
 });
 
 express.get('/cat/:name', (req, res) => {
