@@ -55,5 +55,5 @@ express.get('/cat/:name', (req, res) => {
 // 	}
 // };
 
-express.listen(3000);
+express.listen(process.env.port || 3000);
 console.log('Now listening to port 3k');
